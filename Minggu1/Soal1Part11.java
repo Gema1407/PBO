@@ -1,4 +1,4 @@
-public class Soal1 {
+public class Soal1Part11 {
     public static void main(String[] args) {
         byte angka1 = 125;
         byte angka2 = 6;
