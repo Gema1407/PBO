@@ -11,7 +11,7 @@ package Minggu2;
 public class AtributSekolah extends Barang {
     private String atributSekolah;
 
-    public AtributSekolah(String namaBarang, int harga, int stok){
+    public AtributSekolah(String namaBarang, int harga, int stok) {
         super(namaBarang, harga, stok);
     }
 
