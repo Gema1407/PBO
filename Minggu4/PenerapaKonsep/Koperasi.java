@@ -56,7 +56,6 @@ public class Koperasi {
                     System.out.print("Berapa jumlah yang mau dibeli? ");
                     int jumlah = mainScanner.nextInt();
 
-                    // <-- PERBAIKAN: Logika penanganan output sekarang ada di sini
                     boolean sukses = barangDipilih.prosesPembelian(jumlah);
 
                     System.out.println("--------------------------------------------------");

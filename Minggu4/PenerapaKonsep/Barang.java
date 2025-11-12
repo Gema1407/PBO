@@ -12,13 +12,12 @@ public class Barang {
         this.stok = stok;
     }
     
-    // Method untuk menampilkan info dasar
+    // Method untuk menampilkan info 
     public void tampilkanInfoLengkap() {
         System.out.printf("%-15s | Harga: Rp %-7d | Stok: %d%n", 
                           this.getNamaBarang(), this.getHarga(), this.getStok());
     }
 
-    // <-- PERBAIKAN: Mengubah return type dari void menjadi boolean
     public boolean prosesPembelian(int jumlahDibeli){
         if (jumlahDibeli > 0 && jumlahDibeli <= this.stok) {
             this.stok -= jumlahDibeli;
@@ -27,7 +26,6 @@ public class Barang {
         return false; // Pembelian gagal karena stok kurang atau input tidak valid
     }
 
-    // --- Getter dan Setter (tidak perlu diubah) ---
     public String getNamaBarang(){
         return namaBarang;
     }
